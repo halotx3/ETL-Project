@@ -4,7 +4,7 @@ CREATE DATABASE movies_db;
 --drop table netflix_data;
 
 CREATE TABLE netflix_data (
-show_id INT PRIMARY KEY,
+id INT PRIMARY KEY,
 title VARCHAR,
 duration VARCHAR,
 rating VARCHAR
