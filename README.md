@@ -38,7 +38,12 @@
 
     * As we loaded the data set we identified there were null components and the age group was not consistent with the rating.
 
-    * We reviewed to see if we could find the movie 'Bird box', 'murder mystery' as we know that is a Netflix original to see if we could find any correlation, however the movie was not found
-
     * We performed a group by age and rating to see if there was a correlation to the age and the rating.  We found that there was no correlation as some had multiple age groups listed with the same rating type.
+
+    * We reviewed to see if we could find the movies 'Bird box', 'Murder Mystery', and 'Kissing Booth' as we know that those are Netflix original movies to see if we could find any correlation.  We noticed both a rating and age were not null and had sufficent information.  We believe that is because the are only on one platform, therefore there is no discrpencies on age groups.
+        * We had issues presenting the % sign in the python data set in Juniper notebook, even though the information in Postgres had no issues running the same query.
+
+
+
+
 

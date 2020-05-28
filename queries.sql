@@ -28,16 +28,22 @@ select b.title, a.movie_year, a.age, a.imdb, a.rotten_tomato, b.duration, b.rati
 from netflix_data b left join streaming_data a on a.title = b.title
 where age <> ''
 
---seeing if we could find the birdbox as we know that was a netflix original
---Did not appear in the data set therefore the movies may not include netflix original movies
+--find the birdbox as we know that was a netflix original
+--sucessful in finding the information
 select b.title, a.movie_year, a.age, a.imdb, a.rotten_tomato, b.duration, b.rating 
 from netflix_data b left join streaming_data a on a.title = b.title
-where b.title like '%bird%'
+where b.title like '%Bird%' or b.title like '%bird%'
 
 --Tried to find Murder Mystery as it is a netflix original
+--sucessful in finding the information
 select b.title, a.movie_year, a.age, a.imdb, a.rotten_tomato, b.duration, b.rating 
 from netflix_data b left join streaming_data a on a.title = b.title
-where b.title like '%murder%'
+where b.title like '%Murder%' or b.title like '%murder%'
+
+--Identified another movie called The Kissing Booth
+select b.title, a.movie_year, a.age, a.imdb, a.rotten_tomato, b.duration, b.rating 
+from netflix_data b left join streaming_data a on a.title = b.title
+where b.title like '%Kissing Booth%' or b.title like '%Kissing%'
 
 
 --Reviewing the number of records that did not have a null age group
