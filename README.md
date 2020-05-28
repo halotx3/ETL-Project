@@ -24,6 +24,7 @@
         * We again limited it to the columns that were need 
         * We renamed the 'rotten tomato' colomn as well as the year column so that it propery aligns
         * The unnamed column was also removed as it was attempting to be added to the database
+        
     * At this point both CSVs were sent to the database via sqlalchemy
 
 * **L**oad: the final database, tables/collections, and why this was chosen.
@@ -37,7 +38,7 @@
 
     * As we loaded the data set we identified there were null components and the age group was not consistent with the rating.
 
-    * We reviewed to see if we could find the movie 'Bird box', 'murder mystery' as we know that is a Netflix original to see if we could find any corrolation.  However the movie was not found
+    * We reviewed to see if we could find the movie 'Bird box', 'murder mystery' as we know that is a Netflix original to see if we could find any correlation, however the movie was not found
 
-    * We performed a group by age and rating to see if there was a corrolation to the age and the rating.  We found that there was no corrlation as some had mulpule age groups listed with the same rating type.
+    * We performed a group by age and rating to see if there was a correlation to the age and the rating.  We found that there was no correlation as some had multiple age groups listed with the same rating type.
 
