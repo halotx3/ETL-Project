@@ -37,7 +37,7 @@
 
     * As we loaded the data set we identified there were null components and the age group was not consistent with the rating.
 
-    * We reviewed to see if we could find the movie 'Bird box', 'murder mystery' as we know that is a Netflix original to see if we could find any corrolation.  However the movie was not found
+    * We reviewed to see if we could find the movie 'Bird box', 'murder mystery' as we know those are Netflix original movies to see if we could find any corrolation.  However the movies were not found in the data set.
 
     * We performed a group by age and rating to see if there was a corrolation to the age and the rating.  We found that there was no corrlation as some had mulpule age groups listed with the same rating type.
 
