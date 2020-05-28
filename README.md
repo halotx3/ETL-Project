@@ -24,7 +24,7 @@
         * We again limited it to the columns that were need 
         * We renamed the 'rotten tomato' colomn as well as the year column so that it propery aligns
         * The unnamed column was also removed as it was attempting to be added to the database
-        
+
     * At this point both CSVs were sent to the database via sqlalchemy
 
 * **L**oad: the final database, tables/collections, and why this was chosen.
